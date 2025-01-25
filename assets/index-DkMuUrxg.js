@@ -996,7 +996,7 @@ Please change the parent <Route path="${A}"> to <Route path="${A==="/"?"*":`${A}
         flex-direction: column;
         align-items: center;
         gap: 5px;
-        position: relative
+        position: relative;
     }
 
     .form-input{
@@ -1013,12 +1013,12 @@ Please change the parent <Route path="${A}"> to <Route path="${A==="/"?"*":`${A}
     .btn-container{
         display: flex;
         align-items: center;
-        width: 30vw;
+        width: 65vw;
         justify-content: space-between;
+        gap: 10px;
     }
 
     button{
-        width: 10vw;
         height: 40px;   
         font-size: 1rem;
         color: #fff;
